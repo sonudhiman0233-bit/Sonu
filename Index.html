@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iPhone Solo</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f7;
+      color: #111;
+    }
+
+    header {
+      background: #000;
+      color: white;
+      padding: 18px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: white;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      color: #666;
+      font-size: 18px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .phone {
+      font-size: 80px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+
+    .button {
+      display: inline-block;
+      background: #0071e3;
+      color: white;
+      text-decoration: none;
+      padding: 12px 22px;
+      border-radius: 25px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #000;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>iPhone Solo</h1>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to iPhone Solo</h2>
+    <p>Explore our latest iPhone collection.</p>
+  </section>
+
+  <section class="products">
+
+    <div class="card">
+      <div class="phone">📱</div>
+      <h3>iPhone 15</h3>
+      <p>Powerful. Beautiful. Reliable.</p>
+      <div class="price">₹59,999</div>
+      <a class="button" href="#">View Details</a>
+    </div>
+
+    <div class="card">
+      <div class="phone">📱</div>
+      <h3>iPhone 15 Pro</h3>
+      <p>Pro performance and design.</p>
+      <div class="price">₹1,19,999</div>
+      <a class="button" href="#">View Details</a>
+    </div>
+
+    <div class="card">
+      <div class="phone">📱</div>
+      <h3>iPhone 15 Pro Max</h3>
+      <p>The ultimate iPhone experience.</p>
+      <div class="price">₹1,39,999</div>
+      <a class="button" href="#">View Details</a>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 iPhone Solo
+  </footer>
+
+</body>
+</html>
